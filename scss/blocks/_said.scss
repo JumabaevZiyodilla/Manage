@@ -1,0 +1,52 @@
+/* SECTION SAID START */
+.said-title {
+    margin-bottom: 158px;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: -0.61875px;
+}
+.said-item{
+    position: relative;
+    &:nth-child(1)::before{
+        position: absolute;
+        top: -96px;
+        left: calc(50% + -37px);
+        background-image: url("../images/anisha.png");
+        background-size: contain;
+        width: 72px;
+        height: 72px;
+        content: "";
+    }
+    &:nth-child(2)::before{
+        position: absolute;
+        top: -96px;
+        left: calc(50% + -37px);
+        width: 72px;
+        height: 72px;
+        background-image: url("../../images/ali.png");
+        background-size: contain;
+        content: "";
+    }
+    &:nth-child(3)::before{
+        position: absolute;
+        top: -96px;
+        left: calc(50% + -37px);
+        width: 72px;
+        height: 72px;
+        background-image: url("../images/richard.png");
+        background-size: contain;
+        content: "";
+    }
+}
+article{
+    background-size: cover;
+    padding-top: 91px;
+    padding-bottom: 91px;
+    background-repeat: no-repeat;
+}
+@media only screen and (min-width: 768px){
+    .article-box{
+        width: 445px;
+    }
+}
+/* SECTION SAID END */

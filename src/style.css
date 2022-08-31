@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link{
+    @apply inline-block py-3 px-8 text-sm text-white rounded-3xl bg-linkBg hover:bg-linkBgHover text-center ease-in;
+}
+.last-link{
+    @apply inline-block mx-auto py-3 px-8 text-sm bg-white rounded-3xl text-linkBg hover:text-linkBgHover text-center ease-in;
+}
